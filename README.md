@@ -143,17 +143,17 @@ jupyter notebook
 
 --- 
 
-🧠 Applications
-Breast cancer detection
-Biomarker discovery
-Precision medicine
-Bioinformatics research 
+## 🧠 Applications
+- Breast cancer detection
+- Biomarker discovery
+- Precision medicine
+- Bioinformatics research 
 
-🔮 Future Scope
-Apply deep learning models
-Perform feature importance analysis
-Integrate multi-omics data
-Deploy as a web application 
+## 🔮 Future Scope
+- Apply deep learning models
+- Perform feature importance analysis
+- Integrate multi-omics data
+- Deploy as a web application 
 
 --- 
 
