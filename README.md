@@ -145,6 +145,7 @@ jupyter notebook
 
 🧠 Applications
 Breast cancer detection
+
 Biomarker discovery
 Precision medicine
 Bioinformatics research 
