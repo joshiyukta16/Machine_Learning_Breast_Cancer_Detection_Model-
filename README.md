@@ -136,7 +136,7 @@ Machine_Learning_Project/
 
 ▶️ How to Run 
 
-git clone https://github.com/your-username/Breast-Cancer-Detection-ML.git
+git clone https://github.com/joshiyukta16/Machine_Learning_Breast_Cancer_Detection_Model-.git
 cd Breast-Cancer-Detection-ML
 pip install -r requirements.txt
 jupyter notebook 
