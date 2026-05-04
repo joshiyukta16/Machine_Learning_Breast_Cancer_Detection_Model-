@@ -118,7 +118,7 @@ The Receiver Operating Characteristic (ROC) curve was used to evaluate the model
 
 - AUC Score: **1.0**
 
-![ROC Curve](figures/ROC.png)
+![ROC Curve](Figures/ROC.png)
 
 ✅ Results from this Project
 AUC Score: 1.0
@@ -132,7 +132,7 @@ AUC Score: 1.0
 
 Principal Component Analysis (PCA) was applied to reduce high-dimensional gene expression data into 2D space for visualization.
 
-![PCA Plot](figures/PCA.png) 
+![PCA Plot](Figures/PCA.png) 
 
 ### 🔍 PCA Interpretation
 - Clear separation between tumor and normal samples  
