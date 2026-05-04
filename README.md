@@ -110,7 +110,44 @@ weighted avg       1.00      1.00      1.00        12
 
 The SVM model achieved 100% accuracy on the test dataset, correctly classifying all tumor and normal samples. However, due to the high dimensionality of gene expression data (~20,000 features) and relatively small sample size (60 samples), the model may be prone to overfitting. Therefore, additional validation techniques such as cross-validation are required to ensure robustness and generalizability of the model. 
 
+--- 
+
+## 📈 ROC Curve
+
+The Receiver Operating Characteristic (ROC) curve was used to evaluate the model’s ability to distinguish between tumor and normal samples.
+
+- AUC Score: **1.0**
+
+![ROC Curve](figures/ROC.png)
+
+✅ Results from this Project
+AUC Score: 1.0
+- The ROC curve is positioned near the top-left corner, indicating:
+- High sensitivity (correct tumor detection)
+- Low false positive rate (minimal misclassification of normal samples) 
+
+---
+
+## 📊 PCA Visualization 
+
+Principal Component Analysis (PCA) was applied to reduce high-dimensional gene expression data into 2D space for visualization.
+
+![PCA Plot](figures/PCA.png) 
+
+### 🔍 PCA Interpretation
+- Clear separation between tumor and normal samples  
+- Indicates strong feature distinction in dataset  
+- Supports model’s high accuracy  
+
+--- 
 ## Cross Validation 
+
+To evaluate the robustness and generalizability of the model, 5-fold cross-validation was performed using a machine learning pipeline that includes feature scaling, feature selection, and classification.
+
+### 🔧 Pipeline Components
+- Feature Scaling: StandardScaler
+- Feature Selection: SelectKBest (top 100 genes using ANOVA F-test)
+- Classifier: Support Vector Machine (SVM, linear kernel)
 
 ## 🏁 Conclusion
 
@@ -119,6 +156,16 @@ In this project, a machine learning pipeline was developed to classify breast ca
 A Support Vector Machine (SVM) model was trained and evaluated, achieving strong performance in distinguishing tumor and normal samples. The results demonstrate the effectiveness of machine learning techniques in analyzing complex biological data.
 
 This project highlights the potential of computational approaches in bioinformatics for disease classification and can be extended for biomarker discovery and precision medicine applications. 
+
+## 🔮 Future Work
+
+The model can be further validated using independent datasets such as:
+
+- GSE42568 (tumor vs normal classification)
+- GSE70947 (RNA-seq based validation)
+- GSE2034 (cross-platform validation)
+
+This would help assess the robustness and generalizability of the model across different biological datasets.
 
 --- 
 
