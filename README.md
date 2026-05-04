@@ -104,7 +104,13 @@ Classification Report:
    macro avg       1.00      1.00      1.00        12
 weighted avg       1.00      1.00      1.00        12
 
----
+--- 
+
+### Interpretation 
+
+The SVM model achieved 100% accuracy on the test dataset, correctly classifying all tumor and normal samples. However, due to the high dimensionality of gene expression data (~20,000 features) and relatively small sample size (60 samples), the model may be prone to overfitting. Therefore, additional validation techniques such as cross-validation are required to ensure robustness and generalizability of the model. 
+
+## Cross Validation 
 
 ## 🏁 Conclusion
 
