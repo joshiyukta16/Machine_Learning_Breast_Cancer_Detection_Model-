@@ -88,7 +88,7 @@ Dataset downloaded from GEO database.
 
 ## 📊 Confusion Matrix
 
-![Confusion Matrix](images/Confusion_Matrix_Output_Image.png.png) 
+![Confusion Matrix](images/Confusion_Matrix_Output_Image.png) 
 
 ---
 
